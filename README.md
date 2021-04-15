@@ -11,6 +11,9 @@ java -jar bplustree-api/target/bplustree-api-0.0.1-SNAPSHOT.jar
 ```
 
 ## Servicios Web para agregar o consultar animales
+->Agregar nuevo animal
+->Consultar animales guardados
+->Consultar animal por ID
 
 ```bash
 curl --location --request POST '127.0.0.1:8080/btree-server/animal' \
@@ -25,6 +28,9 @@ curl --location --request GET '127.0.0.1:8080/btree-server/animal/1'
 ```
 
 ## Servicios Web para agregar o consultar personas
+->Agregar nueva persona
+->Consultar personas guardadas
+->Consultar persona por identificación
 
 ```bash
 curl --location --request POST '127.0.0.1:8080/btree-server/person' \
@@ -34,8 +40,8 @@ curl --location --request POST '127.0.0.1:8080/btree-server/person' \
     "name":"Lina Guerrero",
     "email":"linawarrior@gmail.com"
 }'
-curl --location --request GET '127.0.0.1:8080/btree-server/person/1032427051'
-curl --location --request GET '127.0.0.1:8080/btree-server/animal/1'
+curl --location --request GET '127.0.0.1:8080/btree-server/person'
+curl --location --request GET '127.0.0.1:8080/btree-server/person/1032427'
 ```
 
 ## License

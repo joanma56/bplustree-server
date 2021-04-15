@@ -34,7 +34,8 @@ curl --location --request POST '127.0.0.1:8080/btree-server/person' \
     "name":"Lina Guerrero",
     "email":"linawarrior@gmail.com"
 }'
-curl --location --request GET '127.0.0.1:8080/btree-server/person/1032427051'curl --location --request GET '127.0.0.1:8080/btree-server/animal/1'
+curl --location --request GET '127.0.0.1:8080/btree-server/person/1032427051'
+curl --location --request GET '127.0.0.1:8080/btree-server/animal/1'
 ```
 
 ## License
